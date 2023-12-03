@@ -1,0 +1,663 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shorticon {
+  border-radius: 30px;
+}
+
+.logo {
+  height: 108px;
+  border-radius: 101px;
+  margin-left: 92px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* justify-content:space-evenly; */
+  padding-left: 361px;
+  margin-top: -68px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: sans-serif;
+  padding-left: 30px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+.had {
+  background-image: url("../images/hummm.png");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  height: 690px;
+}
+
+.welcome h1 {
+  font-weight: revert;
+  padding-top: 318px;
+  font-size: 60px;
+  padding-left: 444px;
+  color: mintcream;
+}
+.welcome p {
+  color: black;
+  font-size: 20px;
+  padding-left: 436px;
+}
+.welcome {
+  text-align: center;
+}
+
+#black {
+  background-image: url("../images/menu.png");
+  height: 600px;
+  padding-top: 40px;
+}
+
+.text {
+  margin-top: 0px;
+}
+
+.text p {
+  color: lavenderblush;
+  font-family: revert;
+  font-size: 20px;
+  font-weight: 500;
+  /* width: 10%;
+  margin-left: -166px; */
+}
+
+.text video {
+  border-radius: 126px;
+  margin-left: 462px;
+}
+
+.menu {
+  background-image: url("https://iamsubzero.com/cdn/shop/t/2/assets/bits-bg.svg?v=1257872118573293351506938602");
+  background-size: 100% auto;
+  height: auto;
+}
+.menu h1 {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  padding-top: 50px;
+}
+.col-1 {
+  margin-left: 5px;
+}
+.carousel-item h4 {
+  color: black;
+  font-size: 50px;
+  font-family: monospace;
+  font-weight: 700;
+}
+.carousel-item p {
+  color: black;
+  /* font-size: 50px; */
+  font-family: monospace;
+  font-weight: 700;
+}
+.carousel-item img {
+  margin-bottom: 0px;
+}
+#best {
+  background-color: black;
+}
+#best h2 {
+  font-size: 40px;
+  font-family: fantasy;
+}
+#me img {
+  margin-left: 441px;
+  margin-top: 47px;
+  height: 400px;
+}
+.feature {
+  display: flex;
+  margin-top: 78px;
+}
+.img {
+  width: 20%;
+  flex-direction: column;
+}
+.img img {
+  border-radius: 20px;
+}
+.pord {
+  color: white;
+  font-family: revert;
+  font-size: 17px;
+  font-weight: 200;
+  padding-left: 40px;
+  text-align: center;
+}
+.pord h1 {
+  margin-left: -84px;
+}
+.bbbb {
+  border: 4px solid black;
+  padding: 44px;
+  border-radius: 20px;
+  margin-top: 14px;
+  padding-bottom: 20px;
+}
+#LOC {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+#LOC h1 {
+  color: white;
+  font-family: revert;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+.loca {
+  display: flex;
+  color: black;
+  text-align: center;
+  border: 1px solid white;
+  background-color: aqua;
+  margin-right: 164px;
+  margin-left: 210px;
+  margin-top: 31px;
+}
+.place {
+  flex-direction: column;
+  width: 40%;
+  padding-top: 15px;
+  padding-left: 21px;
+}
+.place button {
+  border: none;
+  background-color: pink;
+  color: black;
+  padding: 9px;
+}
+.timing {
+  margin-left: 90px;
+  width: 40%;
+  padding-top: 15px;
+  padding-left: 51px;
+}
+
+.contact {
+  background-image: url("../images/footer.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+.aaaa {
+  color: white;
+  font-family: revert;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 39px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  padding-left: 392px;
+}
+.link {
+  text-align: center;
+  padding-left: 51px;
+}
+.btn {
+  margin-left: 448px;
+  padding: 22px 60px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  font-family: monospace;
+}
+.btn1 {
+  margin-left: 448px;
+  padding: 22px 60px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: monospace;
+}
+.btn1:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-family: monospace;
+  border: 2px solid white;
+}
+textarea {
+  margin-left: 2px;
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  font-family: monospace;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.input h4 {
+  color: white;
+  margin-left: -480px;
+  font-family: fantasy;
+}
+.input input {
+  width: 30%;
+  border: none;
+  border-radius: 3px;
+  font-family: monospace;
+  padding: 10px 10px;
+  margin-left: 6px;
+}
+.btn2 {
+  margin-left: 448px;
+  padding: 20px 45px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  border-radius: 10px;
+}
+.btn2:hover {
+  color: black;
+  background-color: white;
+  font-family: monospace;
+}
+.fot {
+  
+  font-size: 15px;
+  padding: 5px ;
+}
+
+/* responsive design */
+@media only screen and (max-width: 980px) {
+  nav ul {
+    padding-left: 196px;
+    margin-top: 11px;
+  }
+  .logo {
+    margin-left: 387px;
+  }
+  .welcome h1 {
+    font-weight: revert;
+    padding-top: 343px;
+    font-size: 50px;
+    padding-left: 224px;
+    color: mintcream;
+  }
+  .welcome p {
+    color: black;
+    font-size: 20px;
+    padding-right: 85px;
+    padding-left: 316px;
+  }
+  #me img {
+    margin-left: 286px;
+  }
+  .pord h1 {
+    margin-left: 46px;
+    font-size: x-large;
+  }
+  .pord p {
+    margin-left: 45px;
+  }
+  .btn {
+    margin-left: 432px;
+  }
+  .loca {
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 75px;
+  }
+  .icons {
+    padding-left: 181px;
+  }
+  .input h4 {
+    margin-left: -249px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  nav ul {
+    margin-left: -65px;
+  }
+  .logo {
+    margin-left: 327px;
+  }
+  .text p {
+    margin-left: -60px;
+  }
+  #me img {
+    margin-left: 201px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome h1 {
+    margin-left: -138px;
+  }
+  .welcome p {
+    margin-left: -120px;
+  }
+  .pord p {
+    margin-left: 77px;
+  }
+  .btn {
+    margin-left: 255px;
+  }
+  .loca {
+    margin-left: -31px;
+    margin-right: -22px;
+  }
+  .btn1 {
+    margin-left: 175px;
+    padding: 17px 41px;
+  }
+  .icons {
+    margin-left: -64px;
+  }
+  .input h4 {
+    margin-left: -231px;
+  }
+  .input input {
+    width: 40%;
+  }
+  textarea {
+    margin-left: 8px;
+    width: 82%;
+  }
+  .btn2 {
+    margin-left: 307px;
+  }
+}
+@media only screen and (max-width: 728px) {
+  .logo {
+    margin-left: 286px;
+  }
+  nav ul {
+    margin-left: -142px;
+  }
+  #me img {
+    margin-left: 158px;
+  }
+}
+@media only screen and (max-width: 645px) {
+  .text video {
+    margin-left: 23px;
+  }
+  nav ul {
+    margin-left: -159px;
+  }
+  #me img {
+    margin-left: 107px;
+  }
+}
+@media only screen and (max-width: 624px) {
+  nav ul {
+    margin-left: -187px;
+  }
+  .logo {
+    margin-left: 178px;
+  }
+  .loca {
+    margin-left: 9px;
+    margin-right: 37px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 580px){
+  nav ul{
+    margin-left: -155px;
+    margin-right: -74px;
+  }
+  nav ul li a{
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  #me img{
+    margin-left: 64px;
+  }
+  .pord{
+    padding-left:96px ;
+  }
+  .pord h1{
+    margin-left: 51px;
+  }
+}
+@media only screen and (max-width: 475px){
+  #me img{
+    margin-left: 41px;
+  }
+  nav ul{
+    margin-left: -177px;
+  }
+  .welcome h1{
+    margin-left: -198px;
+  }
+  .welcome p{
+    margin-left: -192px;
+  }
+  .btn{
+    margin-left: 179px;
+  }
+  .loca{
+    margin-left: -3px;
+  }
+  .icons{
+    margin-left: -132px;
+  }
+}
+@media only screen and (max-width: 431px){
+  nav ul{
+    margin-left: -204px;
+  }
+  .logo{
+    margin-left: 143px;
+  }
+  #me img{
+    margin-left: 16px;
+  }
+  .pord h1{
+    margin-left: -81px;
+    margin-top: -1px;
+  }
+  .pord p{
+    margin-left: -47px;
+    margin-bottom: 49px;
+  }
+  .btn{
+    margin-left: 77px;
+  }
+  .timing{
+    margin-left: 59px;
+    width: 50%;
+    padding-top: 15px;
+  }
+  .place{
+    width: 40%;
+    padding-left: 14px;
+  }
+}
+/* make it all modile respoansive */
+/* iphone SE */
+@media only screen and (max-width:1281px){
+  #me img{
+    margin-left: 434px;
+  }
+}
+@media only screen and (max-width:1025px){
+  #me img{
+    margin-left: 305px;
+  }
+}
+@media only screen and (max-width:413px){
+  #me img{
+    margin-left: 6px;
+  }
+  .btn2{
+    margin-left: 187px;
+  }
+  .input h4{
+    margin-left: -143px;
+  } 
+  .text p{
+    margin-top: 13px;
+    margin-left: 22px;
+  }
+  .menu h1{
+    font-size: 40px;
+  }
+  .img img{
+    margin-left: 58px;
+    margin-top: -93px;
+    height: 193px;
+  }
+  .pord{
+    padding-left: 30px;
+    margin-top: 84px;
+  }
+  .text video{
+    border-radius: 167px;
+    margin-left: 86px;
+  }
+}
+@media only screen and (max-width: 281px){
+  .welcome h1{
+    margin-left: -237px;
+    font-size: 40px;
+  }
+  .welcome p{
+    margin-left: -301px;
+    margin-right: -46px;
+  }
+  .logo{
+    margin-left: 83px;
+  }
+  nav ul{
+    margin-left: -211px;
+    font-size: 10px;
+    width: 30%;
+  }
+  nav ul li a{
+    padding-left: 6px;
+    font-size: 14px;
+  }
+  .text p{
+    font-size: 16px;
+  }
+  .text video{
+    margin-left: 37px;
+  }
+  #me img{
+    margin-left: 41px;
+    height: 193px;
+    margin-top: 5px;
+  }
+  .img img{
+    margin-left: 12px
+  }
+  .pord{
+    padding-left: 44px;
+    margin-top: 118px;
+  }
+  .pord p{
+    margin-left: -51px;
+    margin-right: 30px;
+  }
+  .btn{
+    margin-left: -5px;
+  }
+  .loca{
+    display: block;
+  }
+  .place{
+    width: 100%;
+    padding-left: 2px;
+  }
+  .timing{
+    margin-left: -21px;
+    width: 100%;
+    padding-top: 33px;
+    padding-bottom: 32px;
+  }
+  .btn1{
+    margin-left: 33px;
+  }
+  .icons{
+    margin-left: -228px;
+  }
+  .input h4{
+    margin-left: -34px;
+  }
+  .btn2{
+    margin-left: 107px;
+  }
+}
+@media only screen and (max-width: 540px){
+  #me img{
+    margin-left: 58px;
+  }
+  .pord{
+    padding-left: 57px;
+  }
+  .timing{
+    margin-left: 20px;
+    padding-bottom: 24px;
+  }
+}
+@media only screen and (max-width: 912px){
+  .text video{
+    margin-left: 298px;
+  }
+  .btn2{
+    margin-left: 303px;
+  }
+}
+@media only screen and (max-width: 821px){
+  #me img{
+    margin-left: 8px;
+  }
+  .text video{
+    margin-left: 106px;
+  }
+}
+@media only screen and (max-width: 391px){
+  .btn2{
+    margin-left: 191px;
+  }
+  .icons{
+    margin-left: -154px;
+  }
+  .pord{
+    padding-left: -24px
+  }
+  .menu h1{
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 415px){
+  .text p{
+    margin-left: 15px;
+  }
+  .img img{
+    margin-left: 32px;
+    height: 273px;
+  }
+  .pord{
+    padding-left: 34px;
+    margin-top: 261px;
+  }
+}
+0300 2762111
